@@ -1,50 +1,143 @@
 <!DOCTYPE html>
+
+<style>
+    <h3 text-align:center
+
+    </style>
+
 <html>
 <head>
-  <title>Final Project Mockup Template</title>
+  <title>Case Repository</title>
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
   <script src="js/bootstrap.js"></script>
 </head>
 <body>
+
+
+<!-- NAV BAR -->
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">About Us</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Link</a></li>
+        <li><a href="#">Favorites</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Logout</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Colleagues Cases <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<!-- NAV BAR -->
+
   <div class="container">
     <div class="row">
       <div class="jumbotron">
-        <h1>This is my awesome product (height: 200px)</h1>
+        <h1><style= "text-align:center"> CaseSpace</h1><img src="HumanBody.png" height="147" width="177" class="img-responsive">
       </div>
     </div>
     <div class="row">
-      <div class="col-md-4">
-        <h3>What Does It Do (33%)</h3>
-        <p>This is what it does. Intrigued yet?</p>
-        <a href="#" class="btn btn-primary">Learn More</a>
+      <div class="col-md-3">
+        <h3>MSK</h3>
+        <a href="#" class="btn btn-danger">MSK Cases</a>
+        <a href="#" class="btn btn-success">Add MSK Case</a>
       </div>
-      <div class="col-md-4">
-        <h3>FAQ (33%)</h3>
-        <p>You've got questions. We've got answers.</p>
-        <a href="#" class="btn btn-danger">Go to the FAQ</a>
+      <div class="col-md-3">
+        <h3>CHEST</h3>
+        <a href="#" class="btn btn-danger">Chest Cases</a>
+        <a href="#" class="btn btn-success">Add Chest Case</a>
       </div>
-      <div class="col-md-4">
-        <h3>Purchase Now (33%)</h3>
-        <p>Convinced?</p>
-        <a href="#" class="btn btn-warning">Buy Now</a>
+      <div class="col-md-3">
+        <h3>BODY</h3>
+        <a href="#" class="btn btn-danger">Body Cases</a>
+        <a href="#" class="btn btn-success ">Add Body Case</a>
       </div>
+        <div class="col-md-3">
+        <h3>NEURO</h3>
+        <a href="#" class="btn btn-danger">Neuro Cases</a>
+        <a href="#" class="btn btn-success">Add Neuro Case</a>
+    </div>
+    <h1>New Case</h1>
+
+  <form>
+    <div>
+      <label for="Accession" >Accession #</label>
+      <input name="Accession" type="text" id="Accession">
+    </div>
+
+    <div>
+      <label for="Diagnosis">Diagnosis</label>
+      <input name="Diagnosis" type="text" id="Diagnosis">
+    </div>
+
+    <div>
+      <label for="Category">Category</label>
+      <select name="select">
+        <option value="4">MSK</option>
+        <option value="3">Chest</option>
+        <option value="6">Body</option>
+        <option value="1">Neuro</option>
+        <option value="9">M and M</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="images">Images</label>
+      <input name="image_url" type="file" id="images">
+    </div>
+
+    <div>
+      <input name="first_name" type="submit" value="Create Case">
+      or <a href="index.html">Cancel</a>
     </div>
     <div class="row">
-      <div class="col-md-4">
-        <h3>Description (33%)</h3>
-        <p>In this screenshot, you see how easy it is to do awesome stuff with our product.</p>
-      </div>
-      <div class="col-md-8">
-        <img src="screenshot_2.png" class="img-responsive">
-      </div>
+      <div class="col-md-6">
+        <img src="myo.png" height="200" width="300" class="img-responsive">
     </div>
-    <div class="row">
-      <div class="col-md-8">
-        <img src="screenshot_1.png" class="img-responsive">
-      </div>
-      <div class="col-md-4">
-        <h3>Description of screenshot (33%)</h3>
-        <p>If you aren't convinced by this screenshot, you'll never be.</p>
+      <div class="col-md-6">
+      <h2> Abdominal Myositis</h2>
+      <a href="#" class="btn btn-success">Case of the Week </a>
       </div>
     </div>
     <div class="row">
@@ -63,7 +156,7 @@
     </div>
     <div class="row">
       <div class="col-md-12">
-        <footer>&#169; Our Awesome Company 2013</footer>
+        <footer>&#169; CaseSpace 2014</footer>
       </div>
     </div>
   </div>
