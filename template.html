@@ -1,9 +1,5 @@
 <!DOCTYPE html>
 
-<style>
-    <h3 text-align:center
-
-    </style>
 
 <html>
 <head>
@@ -32,7 +28,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Link</a></li>
-        <li><a href="#">Favorites</a></li>
+        <li><a href="#"> <span class="glyphicon glyphicon-heart"></span>   Favorites</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
           <ul class="dropdown-menu">
@@ -50,12 +46,12 @@
         <div class="form-group">
           <input type="text" class="form-control" placeholder="Search">
         </div>
-        <button type="submit" class="btn btn-default">Submit</button>
+        <button type="submit" class="btn btn-default"> <span class="glyphicon glyphicon-search"> </span> Submit</button>
       </form>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Logout</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-remove-circle"></span>   Logout</a></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Colleagues Cases <b class="caret"></b></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span>   Colleagues Cases <b class="caret"></b></a>
           <ul class="dropdown-menu">
             <li><a href="#">Action</a></li>
             <li><a href="#">Another action</a></li>
@@ -81,22 +77,22 @@
       <div class="col-md-3">
         <h3>MSK</h3>
         <a href="#" class="btn btn-danger">MSK Cases</a>
-        <a href="#" class="btn btn-success">Add MSK Case</a>
+        <a href="#" class="btn btn-success"> <span class="glyphicon glyphicon-plus"></span>  Add MSK Case</a>
       </div>
       <div class="col-md-3">
         <h3>CHEST</h3>
         <a href="#" class="btn btn-danger">Chest Cases</a>
-        <a href="#" class="btn btn-success">Add Chest Case</a>
+        <a href="#" class="btn btn-success"> <span class="glyphicon glyphicon-plus"></span> Add Chest Case</a>
       </div>
       <div class="col-md-3">
         <h3>BODY</h3>
         <a href="#" class="btn btn-danger">Body Cases</a>
-        <a href="#" class="btn btn-success ">Add Body Case</a>
+        <a href="#" class="btn btn-success "><span class="glyphicon glyphicon-plus"></span>   Add Body Case</a>
       </div>
         <div class="col-md-3">
         <h3>NEURO</h3>
         <a href="#" class="btn btn-danger">Neuro Cases</a>
-        <a href="#" class="btn btn-success">Add Neuro Case</a>
+        <a href="#" class="btn btn-success"><span class="glyphicon glyphicon-plus"></span>   Add Neuro Case</a>
     </div>
     <h1>New Case</h1>
 
@@ -110,7 +106,9 @@
       <label for="Diagnosis">Diagnosis</label>
       <input name="Diagnosis" type="text" id="Diagnosis">
     </div>
-
+    <div>
+      <label for="Clinical Hx">Clinical Hx <label>
+      <input name="Clinical Hx" type="text" id="Clinical Hx"
     <div>
       <label for="Category">Category</label>
       <select name="select">
@@ -125,6 +123,8 @@
     <div>
       <label for="images">Images</label>
       <input name="image_url" type="file" id="images">
+      <input name="image_url" type="file" id="images">
+      <input name="image_url" type="file" id="images">
     </div>
 
     <div>
@@ -136,7 +136,7 @@
         <img src="myo.png" height="200" width="300" class="img-responsive">
     </div>
       <div class="col-md-6">
-      <h2> Abdominal Myositis</h2>
+      <h2> Abdominal Myositis Ossificans</h2>
       <a href="#" class="btn btn-success">Case of the Week </a>
       </div>
     </div>
